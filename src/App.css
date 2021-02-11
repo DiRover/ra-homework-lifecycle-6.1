@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  width: 500px;
+  margin: 50px auto 0;
+  padding: 10px;
+  
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+.add-box {
+  display: flex;
+}
+
+.button {
+  margin: 0 auto;
+}
+
+.clocks-list {
+  margin-top: 20px;
+  width: auto;
+  height: 250px;
+  border-top: 2px solid black;;
+  overflow-y: auto;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 120px;
+  padding: 10px;
+  height: 80px;
+  margin: 20px auto 0;
+}

@@ -5,3 +5,7 @@ export default function getTime(hour = 0) {
     //console.log(time);
     return time;
 }
+
+//hour это смещение времени
+//utcOffset получаем utc время
+//format('HH:mm:ss') формат вывода времени
